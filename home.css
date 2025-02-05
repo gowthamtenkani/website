@@ -4,18 +4,20 @@
     background-color: #ff6f00;
 }
 
-#heading {
+.heading {
     color: #ffffff;
     font-family: "Arial";
     font-weight: bold;
     margin-right: 0%;
+    font-size: 100%;
 }
 
 #para {
     color: #ffffff;
     font-family: "Arial";
-    font-weight: 300;
-    margin-left: 0%;
+    font-size: 80%;
+    margin-left: 0px;
+    font-weight: normal;
 }
 
 #nav-item-0 {
@@ -48,6 +50,41 @@
     font-weight: 300;
 }
 
+.boxline {
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.logo-img {
+    width: 30%;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.sign-in {
+    margin: 10px;
+    margin-right: 0;
+}
+
+#sign-icon {
+    color: #ff6f00;
+    padding: 10px;
+    padding-right: 0px;
+
+}
+
+.icon-query {
+    color: #000000;
+}
+
 .contact-heading {
     font-family: "Roboto";
     margin-bottom: 0px;
@@ -73,7 +110,7 @@ hr {
     background-color: #ffffff;
     border-style: solid;
     border-width: 2px;
-    border-color: #ededed;
+    border-color: grey;
     border-radius: 15px;
     width: 100vw;
     margin: 10px;
@@ -108,19 +145,21 @@ hr {
     padding: 20px;
     border-style: solid;
     border-width: 2px;
-    border-color: #ededed;
+    border-color: grey;
     border-radius: 5px;
 }
 
 .box-two {
     border-style: solid;
     border-width: 2px;
-    border-color: #ededed;
+    border-color: grey;
     border-radius: 5px;
     width: 95%;
     padding: 15px;
     padding-top: 0px;
 }
+
+
 
 .form-row {
     font-family: "Roboto";
@@ -146,7 +185,7 @@ hr {
 
 .office-content {
     padding: 20px;
-    background: #ededed;
+    background: #A1A1A1;
     border-radius: 10px;
 
 }
@@ -185,7 +224,7 @@ hr {
 }
 
 .advertisement {
-    background-color: #ededed;
+    background-color: #A1A1A1;
     text-align: center;
     font-family: "Roboto";
     margin: 20px;
@@ -202,14 +241,15 @@ hr {
 .container-about {
     background-color: #ffffff;
     border-style: solid;
-    border-width: 3px;
-    border-color: #ededed;
+    border-width: 2px;
+    border-color: grey;
     margin: 20px;
     border-radius: 15px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     margin-left: 10px;
     margin-bottom: 0px;
+    border-bottom: 0px;
 
 }
 
@@ -251,47 +291,14 @@ hr {
 }
 
 .last-container {
-    margin-top: 10px;
-}
-
-.logo-img {
-    width: 40%;
-    margin: 10px;
-}
-
-#sign-icon {
-    color: #ff6f00;
-
-}
-
-.icon-query {
-    color: #000000;
-}
-
-.sign-in {
-    margin: 10px;
-    margin-right: 0;
-}
-
-.logo-img {
-    width: 20%;
-    margin: 10px;
-}
-
-.boxline {
-    padding: 3px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #ededed;
-    border-radius: 5px;
-    margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 .boxfooter {
     background-color: #ffffff;
     border-style: solid;
-    border-width: 3px;
-    border-color: #ededed;
+    border-width: 2px;
+    border-color: grey;
     border-radius: 15px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
