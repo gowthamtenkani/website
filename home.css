@@ -3,7 +3,10 @@
 #bar {
     background-color: #ff6f00;
 }
-
+.web{
+    margin: 20px;
+    margin-top: 0px;
+}
 .heading {
     color: #ffffff;
     font-family: "Arial";
